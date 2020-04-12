@@ -10,7 +10,7 @@ namespace SampleApp
         {
             InitializeComponent();
 
-            MainPage = new GridPage();
+            MainPage = new StackPage();
         }
 
         protected override void OnStart()

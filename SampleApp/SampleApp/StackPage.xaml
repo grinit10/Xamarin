@@ -7,19 +7,11 @@
              Padding="0, 20, 0, 0"
              x:Class="SampleApp.StackPage">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="BlanchedAlmond" 
-                     VerticalOptions="Center" 
-                     HorizontalOptions="Center" 
-                     Spacing="20" 
+        <StackLayout Spacing="20" 
                      Padding="40"
-                     Orientation="Horizontal">
-            <StackLayout>
-                <BoxView BackgroundColor="Gray">
-                </BoxView>
-                <Label Text="Label 1" BackgroundColor="Coral"></Label>
-            </StackLayout>
-            <Label Text="Label 2" BackgroundColor="Coral"></Label>
-            <Label Text="Label 3" BackgroundColor="Coral"></Label>
+                     Orientation="Vertical">
+            <Button BackgroundColor="AliceBlue" Text="Send Boradcats message" Clicked="Button_Clicked"></Button>
+            <Label Text="Label 3" ></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
