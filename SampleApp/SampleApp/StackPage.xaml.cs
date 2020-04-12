@@ -14,7 +14,7 @@ namespace SampleApp
         private void Button_Clicked(object sender, System.EventArgs e)
         {
             IMyInterface mp = DependencyService.Get<IMyInterface>();
-            mp.GetPlatformName();
+            mp.PublishEvent();
         }
     }
 }

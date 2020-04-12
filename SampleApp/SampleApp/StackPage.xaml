@@ -11,7 +11,7 @@
                      Padding="40"
                      Orientation="Vertical">
             <Button BackgroundColor="AliceBlue" Text="Send Boradcats message" Clicked="Button_Clicked"></Button>
-            <Label Text="Label 3" ></Label>
+            <Label  Text="Label 3" ></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
