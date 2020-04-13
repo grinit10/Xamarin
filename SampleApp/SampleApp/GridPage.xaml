@@ -7,17 +7,7 @@
              x:Class="SampleApp.GridPage">
     <ContentPage.Content>
         <Grid RowSpacing="40" ColumnSpacing="10">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="100"></RowDefinition>
-                <RowDefinition Height="2*"></RowDefinition>
-                <RowDefinition Height="*"></RowDefinition>
-            </Grid.RowDefinitions>
-            <Label Grid.Row="0" Grid.Column="0" Text="Label 1" BackgroundColor="Coral"></Label>
-            <Label Grid.Row="0" Grid.Column="1" Text="Label 2" BackgroundColor="Coral"></Label>
-            <Label Grid.Row="1" Grid.Column="0" Text="Label 3" BackgroundColor="Coral"></Label>
-            <Label Grid.Row="1" Grid.Column="1" Text="Label 4" BackgroundColor="Coral"></Label>
-            <Label Grid.Row="2" Grid.ColumnSpan="3" Text="Label 5" BackgroundColor="Coral"></Label>
-            <Label Grid.RowSpan="3" Grid.Column="2" Text="Label 6" BackgroundColor="Coral"></Label>
+            <Label x:Name="Gps" Grid.Row="0" Grid.ColumnSpan="3" Text="Label 6" BackgroundColor="Coral"></Label>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
