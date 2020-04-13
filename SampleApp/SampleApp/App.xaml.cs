@@ -1,6 +1,4 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
 namespace SampleApp
 {
@@ -10,7 +8,7 @@ namespace SampleApp
         {
             InitializeComponent();
 
-            MainPage = new GridPage();
+            MainPage = new StackPage();
         }
 
         protected override void OnStart()
