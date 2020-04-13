@@ -21,7 +21,6 @@ namespace SampleApp.Droid
 
             if (device.BondState != Bond.Bonded)
             {
-                StackPage
                 Console.WriteLine($"Found device with name: {device.Name} and MAC address: {device.Address}");
             }
         }
